@@ -78,8 +78,9 @@ var app = builder.Build();
 app.UseSwagger();
 app.UseSwaggerUI();
 app.UseCors(_policyName);
+//the below is Cors policy name
 //app.UseCors(_policyName);
-//ppppppp
+
 app.UseHttpsRedirection();
 
 app.UseAuthentication();
